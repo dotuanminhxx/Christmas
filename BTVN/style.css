@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #CDDCDC;
+    background-image: radial-gradient(at 50% 100%, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), linear-gradient(to bottom, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0.25) 100%);
+    background-blend-mode: screen, overlay;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 690px;
+    background-image: url(asset/img/32_CHRISTMAS.jpg);
+    background-size: 1350px;
+}
+
+.header .header-item {
+    padding: 50px;
+}
+
+.header .header-item  .menu {
+    width: 82%;
+    display: flex;
+    justify-content: end;
+}
+
+.header .header-item  .menu .list-item {
+    margin: 20px;
+}
+
+
+.header .header-item  .menu .list-item .simple-link {
+    color: white;
+    border-bottom: 2px solid #B40D14;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.header .header-item .menu .list-item .simple-link:hover {
+    border-bottom: 2px solid #FFCC00;
+    transition: 0.5s;
+}
+
+.main {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .sale {
+    width: 90%;
+    padding: 10px;
+    background-color: white;
+}
+
+.main .sale .title {
+    padding: 15px;
+    font-size: 25px;
+    color: #AE0D15;
+    border-bottom: 1px solid #666666;
+}
+
+.main .sale .list {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.main .sale .list .list-item {
+    width: 200px;
+    margin: 20px;
+}
+
+.main .sale .list .list-item img {
+    width: 200px;
+}
+
+.main .sale .list .list-item h4 {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main .sale .list .list-item h4:hover {
+    color: #1A9CB7;
+    transition: 0.5s;
+}
+
+.main .sale .list .list-item .price {
+    margin-top: 5px;
+}
+
+.main .sale .list .list-item .price span {
+    font-size: 18px;
+    color: #F57224;
+}
+
+.main .sale .list .list-item .old-price del {
+    font-size: 13px;
+}
+
+.main .sale .list .list-item .old-price {
+    margin-bottom: 10px;
+}
+
+.main .sale .list .list-item .old-price span {
+    font-size: 13px;
+}
+
+.main .sale .list .list-item .add-to-cart {
+    
+    text-align: center;
+}
+
+.main .sale .list .list-item .add-to-cart button {
+    width: 100%;
+    padding: 9px 0px;
+    border-radius: 10px; 
+    /* background-color: #82CD47; */
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.main .sale .list .list-item .add-to-cart button:hover {
+    /* background-color: #73b441; */
+    background-image: linear-gradient(120deg, #e6c55c 0%, #e6947d 100%);
+    transition: 0.5s;
+}
+
+.main .sale .list .list-item .add-to-cart button span {
+    font-size: 16px;
+    color: #2c2b2b;
+}
+
+
